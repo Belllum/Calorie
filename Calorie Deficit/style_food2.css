@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: poppins, sans-serif;
+  }
+  
+  .main-nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -100px;
+    padding: 0;
+    width: 800px;
+    height: 200px;
+  }
+  
+  .main-nav li {
+    list-style: none;
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    background: #000;
+    transform: rotate(45deg);
+    transition: 0.5s;
+    margin: -100px;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  
+  .main-nav li:hover {
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+  }
+  
+  .main-nav li.item1 {
+    transform: rotate(-45deg);
+    top: 0;
+    left: 0;
+  }
+  
+  .main-nav li.item2 {
+    transform: rotate(-45deg);
+    bottom: -11%;
+    left: 25%;
+  }
+  
+  .main-nav li.item3 {
+    transform: rotate(-45deg);
+    top: 0;
+    left: 50%;
+  }
+  
+  .main-nav li.item4 {
+    transform: rotate(-45deg);
+    bottom: -11%;
+    left: 75%;
+  }
+  
+  .main-nav li.item5 {
+    transform: rotate(-45deg);
+    top: 0;
+    left: 100%;
+  }
+  .main-nav li.item6 {
+    transform: rotate(-45deg);
+    bottom: -220px;
+    left: 50%;
+  }
+  .main-nav li.item7 {
+    transform: rotate(-45deg);
+    top: 390px;
+    left: 0;
+  }
+  .main-nav li.item8 {
+    transform: rotate(-45deg);
+    top: 390px;
+    left: 100%;
+  }
+  .main-nav li .bg {
+    transform: rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+  }
+  
+  .main-nav li.item1 .bg {
+    background: url(food/9.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main-nav li.item2 .bg {
+    background: url(food/10.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main-nav li.item3 .bg {
+    background: url(food/11.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main-nav li.item4 .bg {
+    background: url(food/12.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main-nav li.item5 .bg {
+    background: url(food/13.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .main-nav li.item6 .bg {
+    background: url(food/14.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .main-nav li.item7 .bg {
+    background: url(food/15.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .main-nav li.item8 .bg {
+    background: url(food/16.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .social-icons{
+    margin-top: 20px;
+    position: fixed;
+    right: 30px;
+    top: 30%;
+}
+
+.social-icons ul li{
+    color: #000;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.social-icons ul li a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: block;
+    font-size: 30px;
+}
+.social-icons ul li span{
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: block;
+  font-size: 30px;
+}
+.social-icons ul li span:hover{
+    transition: 0.4s;
+    font-size: 40px;
+    background-color: #000000;
+    color: #a0b9f4;
+    transition: 0.5s;
+}

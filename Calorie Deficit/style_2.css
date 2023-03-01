@@ -1,0 +1,52 @@
+input[type=number]{
+    width: 450px;
+    border: 2px solid rgba(0, 0, 0, 0.555);
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    margin-left: 20px;
+}
+input[type=number]:focus{
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0);
+}
+
+input[type="checkbox"]{
+    margin-left: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+label{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+.app-picture{
+    margin-top: 0px;
+}
+h4{
+    margin-left: 30px;
+    color: black    ;
+}
+.content{
+    margin-top: 35px;
+    border-radius: 30px;
+    margin-right:200px;
+    background-color: #a0b9f4;
+    height: 610px;
+    width: 500px;
+}
+.btn-group .signup-btn :hover{
+    background-color: #a0b9f4;
+}
+.ans{
+    margin-left: -30px;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style_about.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 570px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+img{
+  border-radius: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Are you struggling to maintain a healthy weight or trying to figure out why you always f
+    eel hungry and tired while on a diet? If you are, you have come to the right place. </p>
+    
+  <p>The term ‘calorie deficit’ is often used in reference to the disruption in energy balance, whereby the 
+    body either expends more calories than it consumes, or less calories are consumed compared to what is 
+    needed to maintain current body weight.Calculating how many calories you should be consuming each day 
+    involves a bit of number crunching. If maths is not your forte, Our calculator uses the Mifflin St Jeor 
+    equation to calculate your basal metabolic rate (BMR) and then calculates your TDEE by taking into account your 
+    physical activity levels.We then use this information to provide an estimate of the time it would take for you to 
+    reach your target weight by following your chosen calorie deficit.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/ed.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Christine Joy A. Edang</h2>
+        <p class="title"></p>
+        <p>BSIS student of Carlos Hilado Memorial State University</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/jg.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Jose Gabriel R. Tiongzon</h2>
+        <p class="title"></p>
+        <p>BSIS student of Carlos Hilado Memorial State University</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/win.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Godwin Ditchon</h2>
+        <p class="title"></p>
+        <p>BSIS student of Carlos Hilado Memorial State University</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="social-icons">
+    <ul>
+       <li><a href="food.html"><i class=""><span class="material-symbols-outlined">restaurant_menu</span></i></a></li>
+       <li><a href="about.html"><span class="material-symbols-outlined">info</span></a></li>
+       <li><a href="video.html"><span class="material-symbols-outlined">fitness_center</span></a></li>
+    </ul>
+</div>
+
+</body>
+</html>
